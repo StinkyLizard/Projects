@@ -1,6 +1,6 @@
 #! /bin/bash
 
-echo -e "Enter the name of then script you want to create : \c"
+echo -e "Enter the name of the script you want to create : \c"
 read file_name
 
 if [ -e $file_name ]
